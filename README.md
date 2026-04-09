@@ -47,3 +47,13 @@ Clean, centered UI design
 After Filtering
 
 ![alt text](image-1.png)
+
+## 5)Performance Improvement (For Large Data)
+
+Currently, filtering is done in-memory.
+
+For large datasets:
+
+Use database indexing
+Implement pagination
+Add debouncing on search input
