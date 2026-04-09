@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=DM+Mono&display=swap');
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: 'DM Sans', sans-serif;
+  background: #f5f5f2;
+  color: #111;
+  min-height: 100vh;
+}
+
+.app-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  max-width: 900px;
+  width: 100%;
+  padding: 3rem 1.5rem;
+  align-items: center;
+}
+.header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+.logo {
+  padding-left: 340px;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.logo span {
+  color: #1D9E75;
+}
+
+.subtitle {
+  font-size: 15px;
+  color: #888;
+  margin-top: 4px;
+  padding-left: 320px;
+}
+.search-box {
+  margin-bottom: 1.5rem;
+}
+
+.error {
+  background: #fff1f1;
+  color: #b91c1c;
+  border: 1px solid #fecaca;
+  border-radius: 8px;
+  padding: 10px 14px;
+  font-size: 13px;
+  margin-bottom: 1rem;
+}
+
+.results-count {
+  font-size: 13px;
+  color: #888;
+  margin-bottom: 10px;
+}
+
+.results-count strong {
+  color: #111;
+  font-weight: 500;
+}
+
+.table-wrapper {
+  background: #fff;
+  border: 1px solid #e5e5e5;
+  border-radius: 12px;
+  overflow: hidden;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 14px;
+}
+
+thead tr {
+  background: #fafafa;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+thead th {
+  padding: 10px 16px;
+  text-align: left;
+  font-size: 11px;
+  font-weight: 500;
+  color: #999;
+  text-transform: uppercase;
+}
+tbody tr {
+  border-bottom: 1px solid #f0f0f0;
+}
+
+tbody tr:hover {
+  background: #fafdf9;
+}
+
+td {
+  padding: 12px 16px;
+}
+.td-price {
+  font-family: 'DM Mono', monospace;
+  font-size: 13px;
+}
+

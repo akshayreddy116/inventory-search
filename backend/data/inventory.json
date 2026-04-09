@@ -1,0 +1,17 @@
+[
+  { "id": 1, "productName": "Ergonomic Chair", "category": "Furniture", "price": 199.99, "stock": 42, "supplier": "Global Office" },
+  { "id": 2, "productName": "Standing Desk", "category": "Furniture", "price": 449.00, "stock": 15, "supplier": "Global Office" },
+  { "id": 3, "productName": "Wireless Keyboard", "category": "Electronics", "price": 59.99, "stock": 130, "supplier": "TechWave" },
+  { "id": 4, "productName": "4K Monitor", "category": "Electronics", "price": 329.00, "stock": 28, "supplier": "TechWave" },
+  { "id": 5, "productName": "Noise-Cancelling Headphones", "category": "Electronics", "price": 249.99, "stock": 55, "supplier": "SoundPlus" },
+  { "id": 6, "productName": "Microwave Oven", "category": "Appliances", "price": 89.50, "stock": 20, "supplier": "HomeBase" },
+  { "id": 7, "productName": "Air Purifier", "category": "Appliances", "price": 179.00, "stock": 34, "supplier": "HomeBase" },
+  { "id": 8, "productName": "Polo T-Shirt Pack of 3", "category": "Clothing", "price": 34.99, "stock": 200, "supplier": "TextileMart" },
+  { "id": 9, "productName": "Winter Jacket", "category": "Clothing", "price": 119.00, "stock": 78, "supplier": "TextileMart" },
+  { "id": 10, "productName": "Ballpoint Pens Box 50", "category": "Stationery", "price": 12.99, "stock": 400, "supplier": "OfficeDepot" },
+  { "id": 11, "productName": "A4 Notebooks Pack 5", "category": "Stationery", "price": 18.50, "stock": 310, "supplier": "OfficeDepot" },
+  { "id": 12, "productName": "Power Drill", "category": "Tools", "price": 89.00, "stock": 60, "supplier": "BuildRight" },
+  { "id": 13, "productName": "Socket Wrench Set", "category": "Tools", "price": 54.99, "stock": 90, "supplier": "BuildRight" },
+  { "id": 14, "productName": "Bluetooth Speaker", "category": "Electronics", "price": 49.99, "stock": 110, "supplier": "SoundPlus" },
+  { "id": 15, "productName": "Filing Cabinet", "category": "Furniture", "price": 139.00, "stock": 22, "supplier": "Global Office" }
+]
