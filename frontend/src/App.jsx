@@ -18,7 +18,7 @@ function App() {
     setError("");
     const params = new URLSearchParams(filters);
     try {
-      const res = await fetch(`http://localhost:5000/search?${params}`);
+      const res = await fetch(`https://inventory-search-tn8h.onrender.com/search?${params}`);
       if (!res.ok) {
         const err = await res.json();
         setError(err.message);
