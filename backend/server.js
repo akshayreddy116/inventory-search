@@ -5,8 +5,7 @@ const data = require("./data/inventory.json");
 const app = express();
 app.use(cors());
 
-const PORT = 5000;
-
+const PORT = process.env.PORT || 5000;
 app.get("/search", (req, res) => {
   let { q, category, minPrice, maxPrice } = req.query;
   let result = [...data];
