@@ -2,6 +2,7 @@
 
 A simple full-stack application that allows users to search surplus inventory using filters like product name, category, and price range.
 
+## Deployed Link : https://inventory-search-dmel.vercel.app/
 ## 1)Tech Stack:
 
 
