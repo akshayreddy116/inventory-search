@@ -55,5 +55,7 @@ Currently, filtering is done in-memory.
 For large datasets:
 
 Use database indexing
+
 Implement pagination
+
 Add debouncing on search input
