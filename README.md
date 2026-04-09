@@ -1,4 +1,4 @@
-Inventory Search App (Zeerostock Assignment)
+#Inventory Search App (Zeerostock Assignment)
 
 A simple full-stack application that allows users to search surplus inventory using filters like product name, category, and price range.
 
