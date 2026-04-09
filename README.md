@@ -23,7 +23,7 @@ Clean, centered UI design
 
 
     1) Clone the repository
-    git clone https://github.com/YOUR_USERNAME/inventory-search.git
+    git clone https://github.com/akshayreddy116/inventory-search.git
     cd inventory-search
     2️) Run Backend
     cd backend
