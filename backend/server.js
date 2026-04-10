@@ -10,6 +10,7 @@ app.get("/search", (req, res) => {
   let { q, category, minPrice, maxPrice } = req.query;
   let result = [...data];
   if (minPrice && maxPrice && Number(minPrice) > Number(maxPrice)) {
+    result = [];
     return res.status(400).json({
       message: "Minimum price cannot be greater than maximum price"
     });
